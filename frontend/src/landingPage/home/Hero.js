@@ -4,6 +4,7 @@ function Hero() {
         <>
         <h1>Hero</h1>
         <h2>Hello</h2>
+        <h3>Hey</h3>
         </>
      );
 }

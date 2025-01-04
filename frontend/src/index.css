@@ -1,13 +1,42 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Footer CSS */
+.mainfooter {
+  height: 200px;
+  background-color: #0d6efd;
+  width: 100%; /* Ensure it spans the full width */
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 600px) {
+  .mainfooter {
+    height: auto; /* Allow the height to adjust based on content */
+    padding: 20px; /* Add some padding for better spacing */
+  }
+}
+
+/* Ensure container takes full width */
+.container {
+  max-width: 100%; /* Allow the container to stretch to the full width */
+  padding: 0;
+  margin: 0;
+}
+
+/* Ensure row alignment is consistent */
+.row {
+  margin: 0; /* Remove any additional margin that might cause scrolling */
+}
+
+.footer{
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+.footer a{
+  color:white;
 }

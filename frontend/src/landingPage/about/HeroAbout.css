@@ -1,0 +1,31 @@
+.ashutosh {
+    border: 1px solid black;
+    border-radius: 10%;
+    background-color: rgb(228, 177, 213);
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0,0,0,0;
+    padding: 0,0,0,0;
+}
+@media (max-width: 600px) {
+    .ashutosh {
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+    }
+}
+.heroAbout{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-top: 5rem; 
+}
+.img{
+    overflow: hidden;
+    object-fit: cover;
+    
+}

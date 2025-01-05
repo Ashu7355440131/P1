@@ -21,6 +21,7 @@ function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            
               <li className="nav-item">
                 <Link className="nav-link active mx-5" aria-current="page" to="/">
                   HomePage
@@ -36,6 +37,7 @@ function Navbar() {
                   Signup
                 </Link>
               </li>
+              
               <li className="nav-item dropdown">
                 <Link
                   className="nav-link active dropdown-toggle mx-5"
